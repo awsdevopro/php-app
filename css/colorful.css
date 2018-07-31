@@ -1,0 +1,313 @@
+.img_border_bottom_green {
+    border-bottom-color: #74c8b8;
+    border-top-color: #74c8b8;
+}
+
+.img_border_bottom_blue {
+    border-bottom-color: #31aae1;
+    border-top-color: #31aae1;
+}
+
+.img_border_bottom_yellow {
+    border-bottom-color: #f2c900;
+    border-top-color: #f2c900;
+}
+
+.img_border_bottom_purple {
+    border-bottom-color: #c183d6;
+    border-top-color: #c183d6;
+}
+
+.green,
+.blog_slide:hover .anchor_green {
+    color: #74c8b8;
+}
+
+.yellow,
+.blog_slide:hover .anchor_yellow {
+    color: #f2c900;
+}
+
+.blue,
+.blog_slide:hover .anchor_blue {
+    color: #31aae1;
+}
+
+.purple,
+.blog_slide:hover .anchor_purple {
+    color: #c183d6;
+}
+
+.orange,
+.blog_slide:hover .anchor_orange {
+    color: #e25111;
+}
+
+.grey,
+.blog_slide:hover .grey {
+    color: #515A5F;
+}
+
+.navbar .nav li .green_link:hover,
+.navbar .sidenav ul>li.active .green_link {
+    color: #74c8b8 !important;
+}
+
+.navbar .nav li .yellow_link:hover,
+.navbar .sidenav ul>li.active .yellow_link {
+    color: #f2c900 !important;
+}
+
+.navbar .nav li .blue_link:hover,
+.navbar .sidenav ul>li.active .blue_link {
+    color: #31aae1 !important;
+}
+
+.navbar .nav li .purple_link:hover,
+.navbar .sidenav ul>li.active .purple_link {
+    color: #c183d6 !important;
+}
+
+.navbar .nav li .orange_link:hover,
+.navbar .sidenav ul>li.active .prange_link {
+    color: #e25111 !important;
+}
+
+.navbar .nav li .grey_link:hover,
+.navbar .sidenav ul>li.active .grey_link {
+    color: #515A5F !important;
+}
+
+.navbar .nav li .green_link:before {
+    background: #74c8b8;
+}
+
+.navbar .nav li .yellow_link:before {
+    background: #f2c900;
+}
+
+.navbar .nav li .blue_link:before {
+    background: #31aae1;
+}
+
+.navbar .nav li .purple_link:before {
+    background: #c183d6;
+}
+
+.navbar .nav li .orange_link:before {
+    background: #e25111;
+}
+
+.navbar .nav li .grey_link:before {
+    background: #515A5F;
+}
+
+.navbar.shrink .nav li .green_link:hover {
+    color: #74c8b8;
+}
+
+.navbar.shrink .nav li .yellow_link:hover {
+    color: #f2c900;
+}
+
+.navbar.shrink .nav li .blue_link:hover {
+    color: #31aae1;
+}
+
+.navbar.shrink .nav li .purple_link:hover {
+    color: #c183d6;
+}
+
+.navbar.shrink .nav li .orange_link:hover {
+    color: #e25111;
+}
+
+.navbar.shrink .nav li .grey_link:hover {
+    color: #515A5F;
+}
+
+.navbar.shrink .nav li .green_link:before {
+    background: #74c8b8 !important;
+}
+
+.navbar.shrink .nav li .yellow_link:before {
+    background: #f2c900;
+}
+
+.navbar.shrink .nav li .blue_link:before {
+    background: #31aae1;
+}
+
+.navbar.shrink .nav li .purple_link:before {
+    background: #c183d6;
+}
+
+.navbar.shrink .nav li .orange_link:before {
+    background: #e25111;
+}
+
+.navbar.shrink .nav li .grey_link:before {
+    background: #515A5F;
+}
+
+.background_hover_green:hover {
+    background: #74c8b8;
+}
+
+.background_hover_yellow:hover {
+    background: #f2c900;
+}
+
+.background_hover_blue:hover {
+    background: #31aae1;
+}
+
+.background_hover_purple:hover {
+    background: #c183d6;
+}
+
+.background_hover_orange:hover {
+    background: #e25111;
+}
+
+.background_hover_grey:hover {
+    background: #515A5F;
+}
+
+.background_green {
+    background: #74c8b8 !important;
+}
+
+.background_yellow {
+    background: #f2c900 !important;
+}
+
+.background_blue {
+    background: #31aae1 !important;
+}
+
+.background_pink {
+    background: #ec768c !important;
+}
+
+.background_purple {
+    background: #c183d6 !important;
+}
+
+.background_orange {
+    background: #e25111 !important;
+}
+
+.background_grey {
+    background: #515A5F !important;
+}
+
+.background_rgba_green {
+    background: rgba(116, 200, 184, .8) !important;
+}
+
+.background_rgba_yellow {
+    background: rgba(242, 201, 0, .8) !important;
+}
+
+.background_rgba_blue {
+    background: rgba(49, 170, 225, .8) !important;
+}
+
+.background_rgba_purple {
+    background: rgba(193, 131, 214, .8) !important;
+}
+
+.background_rgba_orange {
+    background: rgba(226, 81, 17, .8) !important;
+}
+
+.background_rgba_grey {
+    background: rgba(81, 90, 95, .8) !important;
+}
+
+.button_hover_effect_green_1:before,
+.button_hover_effect_green_3:before,
+.button_hover_effect_green_4 {
+    background: #74c8b8;
+}
+
+.button_hover_effect_blue_1:before,
+.button_hover_effect_blue_3:before,
+.button_hover_effect_blue_4 {
+    background: #31aae1;
+}
+
+.button_hover_effect_yellow_1:before,
+.button_hover_effect_yellow_3:before,
+.button_hover_effect_yellow_4 {
+    background: #f2c900;
+}
+
+.button_hover_effect_orange_1:before,
+.button_hover_effect_orange_3:before,
+.button_hover_effect_orange_4 {
+    background: orange;
+}
+
+.button_hover_effect_purple_1:before,
+.button_hover_effect_purple_3:before,
+.button_hover_effect_purple_4 {
+    background: #c183d6;
+}
+
+.pricing_tables_vice_versa .pricing_features_list .li_green:before {
+    color: #74c8b8;
+}
+
+.pricing_tables_vice_versa .pricing_features_list .li_purple:before {
+    color: #c183d6;
+}
+
+.pricing_tables_vice_versa .pricing_features_list .li_orange:before {
+    color: #e25111;
+}
+
+.pricing_tables_vice_versa .pricing_features_list .li_yellow:before {
+    color: #f2c900;
+}
+
+.pricing_tables_vice_versa .pricing_features_list .li_blue:before {
+    color: #31aae1;
+}
+
+.pricing_tables_vice_versa .pricing_features_list .li_grey:before {
+    color: #515A5F;
+}
+
+.portfolio_filter .cbp-l-filters-buttonCenter .cbp-filter-item_blue:before {
+    background: #31aae1;
+}
+
+.portfolio_filter .cbp-l-filters-buttonCenter .cbp-filter-item_yellow:before {
+    background: #f2c900;
+}
+
+.portfolio_filter .cbp-l-filters-buttonCenter .cbp-filter-item_purple:before {
+    background: #c183d6;
+}
+
+.portfolio_filter .cbp-l-filters-buttonCenter .cbp-filter-item_orange:before {
+    background: #e25111;
+}
+
+.portfolio_filter .cbp-l-filters-buttonCenter .cbp-filter-item_blue.cbp-filter-item-active {
+    color: #31aae1;
+}
+
+.portfolio_filter .cbp-l-filters-buttonCenter .cbp-filter-item_yellow.cbp-filter-item-active {
+    color: #f2c900;
+}
+
+.portfolio_filter .cbp-l-filters-buttonCenter .cbp-filter-item_orange.cbp-filter-item-active {
+    color: #e25111;
+}
+
+.portfolio_filter .cbp-l-filters-buttonCenter .cbp-filter-item_purple.cbp-filter-item-active {
+    color: #c183d6;
+}

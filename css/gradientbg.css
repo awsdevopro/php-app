@@ -1,0 +1,42 @@
+.gradientLayout .page_content_client_feedback {
+    background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#5e8ec7), to(#31c2be));
+}
+
+.gradientLayout .page_content_client_feedback:after {
+    position: static;
+}
+
+.gradientLayout .page_content_creative_section,
+.page_content_wox_stats {
+    background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#eb8416), to(#ed2371));
+}
+
+.gradientLayout .page_content_creative_section:after {
+    position: static;
+}
+
+.gradientLayout .page_content_hire_section {
+    background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#d635d6), to(#ff364f));
+}
+
+.gradientLayout .page_content_hire_section:after {
+    position: static;
+}
+
+.gradientLayout .page_content_todo_section {
+    background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#5e8ec7), to(#31c2be));
+}
+
+.gradientLayout .progress_bars_div .progress {
+    background: rgba(255, 255, 255, .4);
+}
+
+.gradientLayout .progress_bars_div .progress-bar {
+    background: #FFFFFF;
+    color: #515A5F;
+}
+
+.gradientLayout .page_content_main_slider .swiper-slide .swiper_slide_inner .slider_main_agency_heading {
+    background: rgba(255, 255, 255, .8);
+    color: #515A5F;
+}

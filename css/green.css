@@ -1,0 +1,62 @@
+.img_border_bottom {
+    border-bottom-color: #82b440;
+}
+
+.pricing_tables_vice_versa {
+    border-top-color: #82b440;
+}
+
+.index6 .navbar .side-menu-button:hover,
+.navbar .side-menu-button,
+.button_hover_effect_1:before,
+.button_hover_effect_3:before,
+.button_hover_effect_4,
+.button_hover_effect_5,
+.navbar .navbar-header button span,
+.navbar .nav li a:before,
+.index6 .navbar .navbar-header button span,
+.index6 .navbar .nav li a:before,
+.index4 .navbar .nav li a:before,
+.index4 .navbar .side-menu-button,
+.qualities_section_icon_inner:hover,
+.progress_bars_div .progress-bar,
+.services_block_inner:hover,
+.portfolio_filter .cbp-l-filters-buttonCenter .cbp-filter-item:before,
+.button_2,
+.button_3:before,
+.button_5:before,
+.button_4 {
+    background: #82b440;
+}
+
+.button_2,
+.button_3:before,
+.button_5:before,
+.button_4 {
+    border: 3px solid #82b440;
+}
+
+.index6 .navbar .side-menu-button,
+.font_awesome_style,
+.rounded_inner_icon,
+.navbar.shrink .nav li a:hover,
+.navbar .nav li a:hover,
+.navbar .side-menu-button.actives .fa,
+.navbar .sidenav ul>li.active a,
+.index6 .navbar.shrink .nav li a:hover,
+.index6 .navbar .nav li a:hover,
+.index6 .navbar .side-menu-button.actives .fa,
+.index6 .navbar .sidenav ul>li.active a,
+.index4 .navbar.shrink .nav li a:hover,
+.index4 .navbar .nav li a:hover,
+.index4 .navbar .side-menu-button.actives .fa,
+.index4 .navbar .sidenav ul>li.active a,
+.pricing_features_list li:before,
+.blog_slide:hover .anchor_green,
+.portfolio_filter .cbp-l-filters-buttonCenter .cbp-filter-item.cbp-filter-item-active {
+    color: #82b440;
+}
+
+.portfolio_filter .cbp-l-grid-mosaic-flat .cbp-caption-activeWrap {
+    background: rgba(130, 180, 64, .8);
+}
