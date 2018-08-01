@@ -9,7 +9,7 @@ CheckPort = $(docker inspect docker-image-test | grep HostPort);
 if [ $CheckPort = "8888" ]; then
      $ImageRunB && $ImageRemoveA;
 else
-                  $ImageRunA && ImageRemoveB;
+                  $ImageRunA && $ImageRemoveB;
 fi
 
 
