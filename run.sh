@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
 
-ImageTestA = $(docker inspect -f '{{.State.Running}}' docker-image-A);
-ImageTestB = $(docker inspect -f '{{.State.Running}}' docker-image-B);
-ImageRemoveA = $(docker rm -f docker-image-A);
-ImageRemoveB = $(docker rm -f docker-image-B);
-ImageRunA = $(docker run -d -p 8888:80 --name docker-image-A awsdevopro/php-app:1.1.1);
-ImageRunB = $(docker run -d -p 8383:80 --name docker-image-B awsdevopro/php-app:1.1.1);
+imagetesta = $(docker inspect -f '{{.State.Running}}' docker-image-A);
+imagetestb = $(docker inspect -f '{{.State.Running}}' docker-image-B);
+imageremovea = $(docker rm -f docker-image-A);
+imageremoveb = $(docker rm -f docker-image-B);
+imageruna = $(docker run -d -p 8888:80 --name docker-image-A awsdevopro/php-app:1.1.1);
+imagerunb = $(docker run -d -p 8383:80 --name docker-image-B awsdevopro/php-app:1.1.1);
 #CheckPort = $(docker inspect docker-image-test | grep HostPort);
-if [ $ImageTestA = "true" ]
+if [ $imagetesta = "true" ]
 then
-   $ImageRunB && $ImageRemoveA
+   $imagerunb && $imageremovea
 else
-   $ImageRunA
+   $imageruna
 fi
 
 
