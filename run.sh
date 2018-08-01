@@ -7,9 +7,9 @@ ImageRemoveB = $(docker rm -f docker-image-B);
 ImageRunA = $(docker run -d --name docker-image-A awsdevopro/php-app:1.1.1);
 ImageRunB = $(docker run -d --name docker-image-B awsdevopro/php-app:1.1.1);
 #CheckPort = $(docker inspect docker-image-test | grep HostPort);
-if [ $ImageTestA == "true" ]; then
+if [ $ImageTestA ]; then
      $ImageRunB && $ImageRemoveA;
-elif [ $ImageTestB == "true" ]; then
+elif [ $ImageTestB ]; then
                   $ImageRunA && $ImageRemoveB;
 else
 $ImageRunA
